@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ SITENAME }}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="{{ SITEURL }}/images/logo.png" alt="Good Homes logo" class="logo responsive" aria-label="Good Homes logo">
+        <h1>{{ SITENAME }}</h1>
+        <p class="tagline">Find tomorrow’s homes today</p>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p class="website-url">www.goodhomes.com</p>
+    </footer>
+</body>
+</html>
