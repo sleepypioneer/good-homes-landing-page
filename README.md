@@ -1,2 +1,1 @@
-# good-homes-landing-page
-A repository for the Good Homes app landing page
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
